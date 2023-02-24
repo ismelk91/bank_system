@@ -2,9 +2,7 @@ package com.bank;
 
 import com.bank.service.BankService;
 import org.junit.jupiter.api.*;
-
 import java.io.*;
-
 import static org.mockito.Mockito.*;
 
 class BankMenuTest {

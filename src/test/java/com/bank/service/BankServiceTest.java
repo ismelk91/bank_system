@@ -2,9 +2,7 @@ package com.bank.service;
 
 import com.bank.BankAccount;
 import com.bank.service.impl.BankServiceImpl;
-
 import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.*;
 
 class BankServiceTest {

@@ -28,9 +28,7 @@ class BankServiceTest {
 
     @Test
     void testWithdrawAmountHigherThanAccountBalance() {
-        assertThrows(RuntimeException.class, () -> {
-            bankService.withdraw(bankAccount, 1000);
-        });
+        assertThrows(RuntimeException.class, () -> bankService.withdraw(bankAccount, 1000));
     }
 
     @Test
